@@ -160,12 +160,12 @@ class MyRoot(BoxLayout):
         popup.open()
 
 
-class iemeitei(App):
+class eigimanipur(App):
     def build(self):
         return MyRoot()
 
 def main():
-    iemeitei().run()
+    eigimanipur().run()
 
 if __name__ == "__main__":
     main()
