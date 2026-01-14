@@ -1,0 +1,30 @@
+<MyRoot>:
+    orientation: 'vertical'
+    spacing: 20
+    padding: 20
+
+    Button:
+        text: "Switch Language"
+        font_size: 32
+        size_hint_y: None
+        height: 80
+        on_press: root.switch_lang()
+
+    Label:
+        font_name: "Meetei"
+        id: title
+        font_size: 64
+        text: "Welcome"
+
+    Label:
+        font_name: "Meetei"
+        id: random_la
+        font_size: 40
+        text: "-"
+
+    Button:
+        font_name: "Meetei"
+        id: btn
+        font_size: 48
+        text: "Emergency"
+        on_press: root.send_location(self)
